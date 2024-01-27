@@ -1,0 +1,204 @@
+# (!) DO NOT TOUCH (!)
+version: 1.0
+
+# Global settings
+settings:
+  lang: "ENG-def"         # Language setting, e.g., "ENG-def" for default English
+  sound: "random.levelup" # Sound played on level up, e.g., "random.levelup"
+  max-level: 10           # Change this if you go past 10 e.g 100 max levels, change this value to 100.
+# Level-specific configurations
+levels:
+  1: # Level one
+    messages:
+      - "         &r&l&f<&6Level UP: 1&7>"          # Level up message
+      - "     &r&l&2Level Progression &a1 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $1,000 to go to the next level." # Level up cost message
+    price: 500               # Money required to reach this level
+    rewards:
+      - item: "diamond"      # Reward item type
+        amount: 1            # Reward item amount
+      - item: "beacon"       # Another reward item type
+        amount: 1            # Another reward item amount
+        name: "&r&l&fLootbox: &aTest"  # Custom name for the lootbox
+        lore:                         # Lore for the lootbox
+          - "&r&7Line one"
+          - "&r&7Line two"
+        nbt:  # NBT data for the lootbox
+          tag: "lootbox"
+          value: "test"
+
+  2: # level two
+    messages:
+      - "           &r&l&f<&6Level UP: 2&7>"          # Level up message for level 2
+      - "     &r&l&2Level Progression &a2 &f/10"   # Level progression message for level 2
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $1,500 to go to the next level." # Level up cost message for level 2
+    price: 1000              # Experience points required to reach level 2
+    rewards:
+      - item: "diamond"      # Reward item type for level 2
+        amount: 1            # Reward item amount for level 2
+      - item: "diamond_sword" # Another reward item type for level 2
+        amount: 1            # Another reward item amount for level 2
+        name: "&r&l&fLevel 2 sword"  # Custom name for the level 2 sword
+        lore:                         # Lore for the level 2 sword
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:                 # Enchantments for the level 2 sword
+          - enchant: "unbreaking"     # Enchantment type
+            level: 2                  # Enchantment level
+  3:
+    messages:
+      - "         &r&l&f<&6Level UP: 3&7>"          # Level up message
+      - "     &r&l&2Level Progression &a3 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $2,000 to go to the next level." # Level up cost message
+    price: 1500
+    rewards:
+      - item: "gold_ingot"
+        amount: 3
+      - item: "iron_sword"
+        amount: 1
+        name: "&r&l&fLevel 3 sword"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:
+          - enchant: "sharpness"
+            level: 2
+
+  4:
+    messages:
+      - "         &r&l&f<&6Level UP: 4&7>"          # Level up message
+      - "     &r&l&2Level Progression &a4 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $2,500 to go to the next level." # Level up cost message
+    price: 2000
+    rewards:
+      - item: "emerald"
+        amount: 2
+      - item: "iron_pickaxe"
+        amount: 1
+        name: "&r&l&fFortune Pickaxe"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:
+          - enchant: "fortune"
+            level: 2
+
+  5:
+    messages:
+      - "         &r&l&f<&6Level UP: 5&7>"          # Level up message
+      - "     &r&l&2Level Progression &a5 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $3,000 to go to the next level." # Level up cost message
+    price: 2500
+    rewards:
+      - item: "ender_pearl"
+        amount: 5
+      - item: "netherite_helmet"
+        amount: 1
+        name: "&r&l&fNetherite Helmet"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:
+          - enchant: "protection"
+            level: 2
+
+  6:
+    messages:
+      - "         &r&l&f<&6Level UP: 6&7>"          # Level up message
+      - "     &r&l&2Level Progression &a6 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $3,500 to go to the next level." # Level up cost message
+    price: 3000
+    rewards:
+      - item: "book"
+        amount: 1
+      - item: "ender_chestplate"
+        amount: 1
+        name: "&r&l&fEnder Chestplate"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:
+          - enchant: "unbreaking"
+            level: 3
+
+  7:
+    messages:
+      - "         &r&l&f<&6Level UP: 7&7>"          # Level up message
+      - "     &r&l&2Level Progression &a7 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $4,000 to go to the next level." # Level up cost message
+    price: 3500
+    rewards:
+      - item: "nether_star"
+        amount: 1
+      - item: "golden_apple"
+        amount: 3
+        name: "&r&l&fGod Apple"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+  8:
+    messages:
+      - "         &r&l&f<&6Level UP: 8&7>"          # Level up message
+      - "     &r&l&2Level Progression &a8 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $4,500 to go to the next level." # Level up cost message
+    price: 4000
+    rewards:
+      - item: "netherite_ingot"
+        amount: 3
+      - item: "elytra"
+        amount: 1
+        name: "&r&l&fElytra"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:
+          - enchant: "unbreaking"
+            level: 3
+
+  9:
+    messages:
+      - "         &r&l&f<&6Level UP: 9&7>"          # Level up message
+      - "     &r&l&2Level Progression &a9 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aYou need $5,000 to go to the next level." # Level up cost message
+    price: 4500
+    rewards:
+      - item: "enchanted_golden_apple"
+        amount: 1
+      - item: "netherite_sword"
+        amount: 1
+        name: "&r&l&fNetherite Sword"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:
+          - enchant: "sharpness"
+            level: 3
+
+  10:
+    messages:
+      - "         &r&l&f<&6Level UP: 10&7>"          # Level up message
+      - "     &r&l&2Level Progression &a10 &f/ 10"   # Level progression message
+      - " "                                     # Empty line
+      - "&r&l&a(!) &r&aCongratulations! You've reached the maximum level!"
+    price: 5000
+    rewards:
+      - item: "dragon_egg"
+        amount: 1
+      - item: "netherite_block"
+        amount: 5
+        name: "&r&l&fNetherite Block"
+        lore:
+          - "&r&7Line one"
+          - "&r&7Line two"
+        enchantments:
+          - enchant: "protection"
+            level: 4

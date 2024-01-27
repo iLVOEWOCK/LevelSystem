@@ -1,0 +1,31 @@
+messages:
+  prefix: "&r&l&6Leveling&fSystem &8» "
+  no-perm: "&r&cYou don't have permission to do that!"
+  help-player:
+    - '    &r&8―――――――&8<&6&l Leveling&f&lSystem &8>&8―――――――'
+    - '      &r&8➼ &d/levels about &fAbout the plugin.'
+    - '      &r&8➼ &d/levels help &fSee this.'
+    - '      &r&8➼ &d/levels info &fSee level.'
+  help-admin:
+    - '    &r&8―――――――&8<&6&l Leveling&f&lSystem &8>&8―――――――'
+    - '      &r&8➼ &d/levels about &fAbout the plugin.'
+    - '      &r&8➼ &d/levels help &fSee this.'
+    - '      &r&8➼ &d/levels reload &fReload the plugin.'
+    - '      &r&8➼ &d/levels info [<player>] &fSee level.'
+    - '      &r&8➼ &d/levels add <amount> [player] &fIncrease a player''s level.'
+    - '      &r&8➼ &d/levels set <amount> [player] &fSet a player''s level .'
+    - '      &r&8➼ &d/levels remove <amount> [player] &fDecrease a player''s level.'
+    - '    &r&8――――――――――――――――――――――――――――――――'
+  added-levels: '&r&aAdded {addedLevels} to {player}''s level(s). They are now level {level}.'
+  set-level: '&r&aSet {player}''s level to {setLevel}. They are now level {level}.'
+  removed-levels: '&r&aRemoved {removedLevels} from {player}''s level(s). They are now level {level}.'
+  player-offline: '&r&cThe player {player} is not online!'
+  not-number: '&r&cThat is not a number!'
+  level-info:
+    - '   &r&8―――――――&8<&6&l Leveling&f&lSystem &8>&8―――――――'
+    - '    &r&7Player: &f{player}'
+    - '    &r&7Level: &f{level}&7/&d10'
+    - '   &r&8――――――――――――――――――――――――――――――――――'
+  top-header: '    &r&8―――――――&8<&6&l Top &f&lPlayers &8>&8―――――――'
+  top-content: '&r&f[{position}] &d{player}&7: &7level: &f{level}&7.'
+  top-footer: '    &r&8――――――――――――――――――――――――――――――――'

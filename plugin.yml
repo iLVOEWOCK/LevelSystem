@@ -1,0 +1,13 @@
+name: Leveling
+main: xtcy\leveling\Loader
+api: 5.0.0
+version: 1.0.0
+author: xtcy_
+
+depend:
+  - BedrockEconomy
+
+permissions:
+  leveling.default.command:
+    default: true
+    description: "Base default command for leveling plugin."
